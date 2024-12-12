@@ -25,7 +25,7 @@ const App = () => {
   }, []);
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/goodvibes/">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
